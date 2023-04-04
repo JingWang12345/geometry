@@ -6,5 +6,8 @@ const point2 = new Point(4,5);
 console.log(point1);
 console.log(point2);
 
-const Segment1 = new Segment(point1,point2);
-console.log(Segment1);
+const segment1 = new Segment(point1,point2);
+
+const segment2 = Segment.fromPointsCoordinates(0, 1, 3, 5);
+
+console.log(segment1);
