@@ -2,6 +2,7 @@
 
 const point1 = new Point(1,1);
 const point2 = new Point(4,5);
+const point3 = new Point(4, 1);
 
 console.log(point1);
 console.log(point2);
