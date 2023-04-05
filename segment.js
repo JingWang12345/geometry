@@ -11,12 +11,13 @@ class Segment {
     }
 
     calculateLength(){
-        const deltax = this.pointA.x - this.pointB.x;
+        const deltaX = this.pointA.x - this.pointB.x;
         const deltaY = this.pointA.y - this.pointB.y;
         const squareDX = deltaX **2;
         const squareDY = deltaY **2;
         const squareSum = squareDX + squareDY;
         const length = Math.sqrt(squareSum);
+        // const length = 
         return length;
 
     }
